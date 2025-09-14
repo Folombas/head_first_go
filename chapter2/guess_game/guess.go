@@ -36,16 +36,16 @@ func main() {
 			log.Fatal(err)
 		}
 		if guess < target {
-			fmt.Println("Oops. Your guess was LOW.")
+			fmt.Println("Вы ввели значение, которое меньше загаданного")
 		} else if guess > target {
-			fmt.Println("Oops. Your guess was HIGH.")
+			fmt.Println("Вы ввели значение, которое больше загаданного")
 		} else {
 			success = true
-			fmt.Println("Good job! You guessed it!")
+			fmt.Println("Отличная работа! Вы угадали загаданное число!")
 			break
 		}
 	}
 	if !success {
-		fmt.Println("Sorry, you didn`t guess my number. It was:", target)
+		fmt.Println("Сорян, вы не угадали число, это было:", target)
 	}
 }
