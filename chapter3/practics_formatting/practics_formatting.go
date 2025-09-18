@@ -15,4 +15,5 @@ func main() {
 	fmt.Printf("Values: %#v %#v %#v\n", 1.2, "\t", true)
 	fmt.Printf("Types: %T %T %T\n", 1.2, "\t", true)
 	fmt.Printf("Percent sign: %%\n")
+	fmt.Printf("%f liters needed\n", 1.68999999999998)
 }
