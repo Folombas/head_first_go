@@ -11,6 +11,6 @@ func floatParts(number float64) (integerPart int, fractionalPart float64) {
 }
 
 func main() {
-	cans, remainder := floatParts(1.26)
+	cans, remainder := floatParts(150.50)
 	fmt.Println(cans, remainder)
 }
