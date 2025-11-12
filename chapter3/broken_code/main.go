@@ -13,10 +13,10 @@ func squareRoot(number float64) (float64, error) {
 }
 
 func main() {
-	root, err := squareRoot(-9.3)
+	root, err := squareRoot(81.00)
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Printf("%0.3f", root)
+		fmt.Printf("%0.2f", root)
 	}
 }
